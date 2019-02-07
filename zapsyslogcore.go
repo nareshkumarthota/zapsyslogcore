@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/nareshkumarthota/core/support/log/config"
+	"github.com/nareshkumarthota/core/support/log/zapcores"
 	"github.com/pkg/errors"
-	"github.com/project-flogo/core/support/log/config"
-	"github.com/project-flogo/core/support/log/zapcores"
 	"go.uber.org/zap/zapcore"
 )
 
